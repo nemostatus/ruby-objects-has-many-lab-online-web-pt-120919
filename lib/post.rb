@@ -3,6 +3,7 @@ class Post
   @@all = []
   def initialize(title = "My Blog Post!")
     @title = title 
+    @@all << self
     
   end 
   def author_name
