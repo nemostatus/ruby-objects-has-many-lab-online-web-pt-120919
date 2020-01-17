@@ -29,3 +29,4 @@ lass Author
     Post.all.count
   end
 end
+end
