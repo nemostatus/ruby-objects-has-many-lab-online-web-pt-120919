@@ -1,4 +1,4 @@
-lass Author
+class Author
   attr_accessor :name
 
   @@all = []
@@ -24,7 +24,7 @@ lass Author
   def posts
     Post.all.select {|post| post.author == self}
   end
-end 
+
 
   def self.post_count
     Post.all.count
